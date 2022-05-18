@@ -7,7 +7,11 @@
     <title>Fruits Index</title>
 </head>
 <body>
+  
     <h1> Here's the fruits index</h1>
+    <nav>
+        <a href="/fruits/new">Create a New Fruit</a>
+      </nav>
     <% for ( let i=0 ; i <allFruits.length ; i++) { %>
         <p>
             <a href="/fruits/<%= i%>">
