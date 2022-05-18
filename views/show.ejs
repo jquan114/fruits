@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Fruits Details</title>
+</head>
+<body>
+    <h1><%=fruit.name %> Show Page</h1>   
+    <p> this is a <%=fruit.color%> color</p>
+    <% console.log(fruit) %>
+    <% if(fruit.readyToEat) { %>
+        <p> this fruit is ready to eat</p>
+    <% } else { %>
+        <p> this fruit is Not ready to eat</p>
+        <% } %>
+
+        <a href="/fruits">Back to fruits Index</a>
+    
+</body>
+</html>
